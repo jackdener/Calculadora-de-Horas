@@ -1,0 +1,40 @@
+body {
+  background-image: linear-gradient(to bottom, rgba(21, 168, 5), rgba(193, 238, 193));
+  height: 100vh;
+  font-family: cursive
+}
+
+h1 {
+  text-align: center;
+}
+
+.samba {
+  text-align: center;
+  border-style: double;
+  width: 410px;
+  margin: 0 auto;
+  display: block;
+  background-image: linear-gradient(to bottom, rgba(21, 168, 5), rgba(193, 238, 193));
+}
+
+input {
+  border-radius: 10px;
+  text-align: center;
+  font-size: medium;
+  width: 130px;
+  height: 30px;
+}
+input::placeholder{
+  color: rgb(88, 138, 99);
+}
+
+button {
+  background-image: linear-gradient(to bottom, rgba(21, 168, 5), rgba(193, 238, 193));
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-image: linear-gradient(to bottom, rgba(193, 238, 193), rgba(21, 168, 5));
+}
